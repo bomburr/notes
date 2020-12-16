@@ -167,11 +167,10 @@ Yapılan Search'e ait bilgi "**info**" cloumn'unda bulunmaktadır.
 	
 ###### info Cloumn
 
-```
-
+```sql
 ... AND text:("TEST") AND (auth:("from@agilis.com.tr")) AND date:(2018-01-01..2020-12-16) AND (reto:("to@agilis.com.tr")) AND (recc:("cc@agilis.com.tr")) AND (recp:("all@agilis.com.tr"))', matching '0' entries, viewing range '1' to '100' 
-
 ```
+
 - **text**  : Yapılan aramada kullanılan kelimeleri temsil eder.
 - **auth**  : From için girilen değer.
 - **date**  : Aramanın tarih aralığı
